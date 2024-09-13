@@ -99,7 +99,7 @@ body, html {
 .forecast-day {
     width: calc(60% - 10px); /* Adjust the width as needed */
     height: 190px; /* Adjust the height as needed */
-    background-color: rgb(234 193 193 / 0%); /* Adjust the background color and opacity */
+    background-color: transparent; /* Adjust the background color and opacity */
     margin-bottom: 10px;
     border: 2px;
     border-color: black;
