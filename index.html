@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="weather-app">
+        <div id="sidebar">
+            <h1>Weather Forecast</h1>
+            <input type="text" id="city-search" placeholder="Search for a city...">
+            <input type="button" id="city-search-button" value="SEARCH">
+            <div id="current-weather">
+                <div id="location"><i class="fas fa-map-marker-alt"></i> Location: </div>
+                <div id="temperature"><i class="fas fa-thermometer-half"></i> Temperature: </div>
+                <div id="condition"><i class="fas fa-sun"></i> Feels Like: </div>
+            </div>
+        </div>
+        <div id="main-content">
+
+            <h2>7 Days Weather Forecast</h2>
+            <div id="forecast-container">
+                <!-- Forecast squares will be added here -->
+            </div>
+           
+
+        
+        <div id="additional-details">
+            <h2>Current Weather Details</h2>
+            <div id="humidity"><i class="fas fa-tint"></i> Humidity:</div>
+            <div id="max-temp"><i class="fas fa-thermometer-full"></i> Max Temp:</div>
+            <div id="min-temp"><i class="fas fa-thermometer-empty"></i> Min Temp:</div>
+            <div id="sunrise"><i class="fas fa-sun"></i> Sunrise:</div>
+            <div id="sunset"><i class="fas fa-moon"></i> Sunset:</div>
+            <div id="wind-degrees"><i class="fas fa-compass"></i> Wind Degrees:</div>
+            <div id="wind-speed"><i class="fas fa-wind"></i> Wind Speed:</div>
+            <div id="cloud-pct"><i class="fas fa-cloud"></i> Cloud Percentage:</div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
