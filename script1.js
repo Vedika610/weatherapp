@@ -97,20 +97,20 @@ document.addEventListener("DOMContentLoaded", function () {
     function getBackgroundImage(condition) {
         switch (condition) {
             case 'clear sky':
-                return 'url(image/clearsky.jpg)';
+                return 'url(clearsky.jpg)';
             case 'overcast clouds':
             case 'scattered clouds':
             case 'broken clouds':
-                return 'url(image/overcastclouds.jpg)';
+                return 'url(overcastclouds.jpg)';
             case 'shower rain':
             case 'rain':
-                return 'url(image/rainy.jpg)';
+                return 'url(rainy.jpg)';
             case 'thunderstorm':
-                return 'url(image/thunderstrom.jpg)';
+                return 'url(thunderstrom.jpg)';
             case 'snow':
-                return 'url(image/snowy.jpg)';
+                return 'url(snowy.jpg)';
             case 'mist':
-                return 'url(image/mist.jpg)';
+                return 'url(mist.jpg)';
         }
     }
 });
