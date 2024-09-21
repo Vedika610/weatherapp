@@ -98,9 +98,11 @@ document.addEventListener("DOMContentLoaded", function () {
         switch (condition) {
             case 'clear sky':
                 return 'url(clearsky.jpg)';
-            case 'overcast clouds':
-            case 'scattered clouds':
             case 'broken clouds':
+            case 'scattered clouds':
+                return 'url(broken clouds)';
+            case 'overcast clouds':
+            
                 return 'url(overcastclouds.jpg)';
             case 'shower rain':
             case 'rain':
