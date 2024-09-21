@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
-    background-color: aqua;
+    background: rgb(2,0,36);
+    background: linear-gradient(183deg, rgba(2,0,36,1) 0%, rgba(0,25,179,1) 35%, rgba(0,212,255,1) 100%);
     padding: 0;
     width: 100%;
     height: 100%;
