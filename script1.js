@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return 'url(clearsky.jpg)';
             case 'broken clouds':
             case 'scattered clouds':
-                return 'url(broken clouds.jpg)';
+                return 'url(brokenclouds.jpg)';
             case 'overcast clouds':
             
                 return 'url(overcastclouds.jpg)';
